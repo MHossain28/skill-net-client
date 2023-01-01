@@ -1,0 +1,13 @@
+.nav-link{
+    text-decoration: none;
+}
+#user{
+    background-color: rgb(215, 215, 215);
+    border-radius: 50%;
+    
+}
+.img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}

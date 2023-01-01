@@ -1,0 +1,94 @@
+.courses{
+    display:grid;
+    grid-template-columns: 3fr 9fr;
+}
+.left-side{
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.right-side button{
+    border: none;
+    background: none;
+}
+.right-side{
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    gap: 40px;
+    padding: 40px;
+    background-color: whitesmoke;
+}
+.css-card img{
+    height: 500px;
+    width: 100%;
+    border-radius: 4px;
+    transition: .5s;
+}
+
+.css-card{
+    height: 500px;
+    width: 310px;
+    border-radius: 5px;
+    /* margin: 50px; */
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden;
+    margin: auto;
+    transition: .5s;
+}
+.css-intro{
+    height: 200px;
+    width: 310px;
+    padding: 12px;
+    color: white;
+    box-sizing: border-box;
+    position: relative;
+    bottom: 82px;
+    background: rgb(27, 27, 27, .5);
+    color: white;
+    transition: .5s;
+}
+.css-card:hover{
+    cursor: pointer;
+    width: 370px;
+    height: 510;
+}
+.css-card:hover .css-intro{
+    bottom: 140px;
+    height: 240px;
+    background: rgb(40, 38, 38);
+     width: 370px;
+}
+.css-card:hover img{
+    transform: scale(1.1) rotate(-3deg);
+}
+.card-btn-link{
+    text-decoration: none;
+}
+
+
+@media only screen and (max-width: 968px) {
+    .courses{
+    display:grid;
+    grid-template-columns: 1fr;
+}
+
+    .right-side{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+    padding: 40px;
+    background-color: rgb(255, 248, 248);
+}
+}
+
+
+/* new 
+ */
+
+ .left-side h2{
+    color: rgb(90, 78, 80);
+ }
+
+ .left-side a{
+    text-decoration: none;
+    color: rgb(95, 71, 71);
+ }

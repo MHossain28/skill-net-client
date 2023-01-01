@@ -1,0 +1,29 @@
+.head-banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carosul img {
+    height: 250px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+.head-text{
+    color: rgb(91, 78, 78);
+    margin-top: 8px;
+}
+.head-text h3{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.btn-course{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    
+    
+}
